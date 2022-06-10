@@ -1,0 +1,36 @@
+#collage {  height: 100vh;  background: url(/collage/img/back.jpg); background-size: 100%;  overflow-y: hidden; overflow-x: scroll;}
+#collage .inner {position: relative;  display: inline-block; width:3000px; height: 100%; }
+#collage .popup {position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.79); z-index: 20; display: none;}
+#collage .popup img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 70vh;}
+#collage .box {position: absolute; cursor: pointer;}
+#collage .box img {height: 100%; display: block;}
+
+.line {position: absolute; top: 0; left: 0;  width: 1px; height: 100vh; background: blue;}
+.line1 {left: 200px;}
+.line2 {left: 400px;}
+.line3 {left: 600px;}
+.line4 {left: 800px;}
+.line5 {left: 1000px;}
+.line6 {left: 1200px;}
+.line7 {left: 1400px;}
+.line8 {left: 1600px;}
+.line9 {left: 1800px;}
+.line10 {left: 2000px;}
+.line11 {left: 2200px;}
+
+
+#collage .popup .image_5 { height: 200px;}
+#collage .popup .image_7 { height: 100%;}
+#collage .popup .image_8 { height: 160px;;}
+
+#collage .box1 {top: 10vh; left: 40px; height: 43vh; z-index: 1;}
+#collage .box2 {top: 40vh; left: 120px; height: 43vh; z-index: 5;}
+#collage .box3 {top: 2vh; left: 400px; height: 40vh; z-index: 4;}
+#collage .box4 {top: 50vh; left: 440px; height: 50vh; z-index: 3;}
+#collage .box5 {top: 40vh; left: 640px; height: 14vh; z-index: 2;}
+#collage .box6 {top: 20vh; left: 760px; height: 20vh; z-index: 1;}
+#collage .box7 {top: 5vh; left: 1000px; height: 90vh; z-index: 1}
+#collage .box8 {top: 60vh; left: 900px; height: 16vh; z-index: 1;}
+#collage .box9 {top: 20vh; left: 1250px; height: 30vh; z-index: 5;}
+
+#collage .shadow {box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
